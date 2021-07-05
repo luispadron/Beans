@@ -1,0 +1,7 @@
+This product contains a derivation of the following libraries:
+
+    * swift-tools-support-core
+        * LICENSE (Apache License 2.0):
+            * http://swift.org/LICENSE.txt
+        * HOMEPAGE:
+            * https://github.com/apple/swift-tools-support-core

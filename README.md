@@ -1,3 +1,3 @@
-# TerminalKit
+# Beans
 
-A description of this package.
+Beans is something... soon

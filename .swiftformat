@@ -80,7 +80,7 @@
 --header "MIT License\nCopyright (c) {year}\nFor more information: https://opensource.org/licenses/MIT"
 --hexgrouping 4,8
 --hexliteralcase uppercase
---ifdef indent
+--ifdef outdent
 --importgrouping testable-bottom
 --indent 4
 --indentcase false
