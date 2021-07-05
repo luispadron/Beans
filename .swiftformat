@@ -1,0 +1,97 @@
+# Minimum swift version the formatter will use.
+--swiftversion 5.4
+
+# The enabled rules for the formatter.
+# Only rules defined here are enabled.
+# Changes to these rules should be proposed in the Compass style guide.
+--rules \
+    anyObjectProtocol, \
+    blankLinesAtEndOfScope, \
+    blankLinesAtStartOfScope, \
+    blankLinesBetweenScopes, \
+    braces, \
+    consecutiveBlankLines, \
+    consecutiveSpaces, \
+    duplicateImports, \
+    elseOnSameLine, \
+    emptyBraces, \
+    extensionAccessControl, \
+    fileHeader, \
+    hoistPatternLet, \
+    indent, \
+    initCoderUnavailable, \
+    leadingDelimiters, \
+    linebreakAtEndOfFile, \
+    modifierOrder, \
+    preferKeyPath, \
+    redundantBackticks, \
+    redundantBreak, \
+    redundantExtensionACL, \
+    redundantFileprivate, \
+    redundantGet, \
+    redundantInit, \
+    redundantLet, \
+    redundantLetError, \
+    redundantNilInit, \
+    redundantObjc, \
+    redundantParens, \
+    redundantPattern, \
+    redundantRawValues, \
+    redundantReturn, \
+    redundantSelf, \
+    redundantType, \
+    redundantVoidReturnType, \
+    semicolons, \
+    sortedImports, \
+    sortedSwitchCases, \
+    spaceAroundBraces, \
+    spaceAroundBrackets, \
+    spaceAroundComments, \
+    spaceAroundGenerics, \
+    spaceAroundOperators, \
+    spaceAroundParens, \
+    spaceInsideBraces, \
+    spaceInsideBrackets, \
+    spaceInsideComments, \
+    spaceInsideGenerics, \
+    spaceInsideParens, \
+    strongifiedSelf, \
+    trailingclosures, \
+    trailingCommas, \
+    trailingSpace, \
+    typeSugar, \
+    unusedArguments, \
+    wrapArguments, \
+    wrapEnumCases, \
+    wrapSwitchCases
+
+# Rule options for the rules defined above.
+# These options should be proposed in the Compass style guide.
+--allman false
+--closingparen balanced
+--commas always
+--comments indent
+--elseposition same-line
+--empty void
+--emptybraces spaced
+--exponentcase lowercase
+--extensionacl on-extension
+--guardelse next-line
+--header "MIT License\nCopyright (c) {year}\nFor more information: https://opensource.org/licenses/MIT"
+--hexgrouping 4,8
+--hexliteralcase uppercase
+--ifdef indent
+--importgrouping testable-bottom
+--indent 4
+--indentcase false
+--maxwidth 120
+--operatorfunc spaced
+--patternlet hoist
+--ranges spaced
+--self remove
+--shortoptionals always
+--stripunusedargs closure-only
+--trimwhitespace always
+--wraparguments before-first
+--wrapcollections before-first
+--wrapparameters before-first
