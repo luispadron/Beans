@@ -5,8 +5,8 @@
 import Terminal
 
 final class MockTerminalInputStream: TerminalInputStream {
-    private var readStub: (() -> Any)?
-    func read<T>(strippingNewLine: Bool, _ mapping: (String) -> T?) -> T? {
-        readStub?() as? T
-    }
+  private var readStub: (() -> Any)?
+  func read<T>(strippingNewLine: Bool, _ mapping: (String) -> T?) -> T? {
+    readStub?() as? T
+  }
 }

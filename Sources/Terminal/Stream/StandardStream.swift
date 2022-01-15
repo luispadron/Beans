@@ -3,11 +3,11 @@
 // For more information: https://opensource.org/licenses/MIT
 
 #if canImport(Darwin)
-import Darwin
-import Foundation
+  import Darwin
+  import Foundation
 
-/// The standard streams for a process.
-public struct StandardStream {
+  /// The standard streams for a process.
+  public struct StandardStream {
     /// The `stdout` output stream for the current process.
     static let output = StandardOutputStream(stream: stdout)
 
@@ -16,5 +16,5 @@ public struct StandardStream {
 
     /// The `stdin` input stream for the current process.
     static let input = StandardInputStream()
-}
+  }
 #endif

@@ -5,13 +5,13 @@
 import Foundation
 
 extension Path: CustomStringConvertible {
-    public var description: String {
-        string
-    }
+  public var description: String {
+    string
+  }
 }
 
 extension Path: CustomDebugStringConvertible {
-    public var debugDescription: String {
-        "<Path: \"\(string)\">"
-    }
+  public var debugDescription: String {
+    "<Path: \"\(string)\">"
+  }
 }
